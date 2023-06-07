@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.cont-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 1px;
+}
+
+.search-cont input{
+    width: 320px;
+    height: 21px;
+}
+
+button{
+    padding: 1px 7px;
+}
+
+.boxes-cont{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3px 0px;
+}
+
+.special{
+    width: 37%;
+    font-size: 14px;
+    background-color: #7ee5da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.help{
+    font-size: 13px;
+    width: 20%;
+    background-color: #70CCC2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.get-google{
+    font-size: 14px;
+    width: 42%;
+    background-color: #62b3aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.get-google-div span{
+    font-size: 13px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 16px;
+}
